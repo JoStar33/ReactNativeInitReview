@@ -11918,6 +11918,11 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
+rxn-units@^0.1.7:
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/rxn-units/-/rxn-units-0.1.7.tgz#0bee8be8f7d717196e59e29024474154c41a3012"
+  integrity sha512-P4Zi1n541O7Qn0CC2YaKNot6u/Ka0g+241eb9nXTbQ5QTDh7vYSZIhKBqxnJiKa8osrC/QQDXVvsPGr2zew+uA==
+
 safe-array-concat@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/safe-array-concat/-/safe-array-concat-1.0.0.tgz#2064223cba3c08d2ee05148eedbc563cd6d84060"
