@@ -15,7 +15,10 @@ export const checkRowCardStyles = StyleSheet.create({
   },
   title: {
     fontSize: 19,
-    fontWeight: "800"
+    fontFamily: "Pretendard-ExtraBold"
+  },
+  contents: {
+    fontFamily: "Pretendard-Medium"
   },
   textContainer: {
     flexDirection: "column"

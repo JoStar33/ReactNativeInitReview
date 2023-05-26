@@ -17,7 +17,7 @@ const CheckRowCard = ({ card, handleCheck }: Props) => {
       />
       <View style={checkRowCardStyles.textContainer}>
         <Text style={checkRowCardStyles.title}>{ card.title }</Text>
-        <Text>{ card.contents }</Text>
+        <Text style={checkRowCardStyles.contents}>{ card.contents }</Text>
       </View>
     </View>
   );
