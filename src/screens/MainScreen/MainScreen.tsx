@@ -1,4 +1,5 @@
 import CheckRowCard from "components/molecules/cards/CheckRowCard/CheckRowCard";
+import CommonSelectBox from "components/molecules/selectBoxs/CommonSelectBox";
 import { checkRowCardList } from "datas/lists/checkRowCardList";
 import { useState } from "react";
 import { FlatList, ListRenderItemInfo, View } from "react-native";
@@ -23,8 +24,10 @@ const MainScreen = () => {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        flexDirection: "column"
       }}
     >
+      <CommonSelectBox data={checkRowCardList}/>
       <FlatList
         data={cardList}
         renderItem={(cardElement) => (
