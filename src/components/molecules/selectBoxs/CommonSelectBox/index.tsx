@@ -40,7 +40,7 @@ const index = <T extends SelectBox>({ data }: Props<T>) => {
     setSearch("");
   };
   return (
-    <View>
+    <View style={{position: "relative", zIndex: 9999}}>
       <SelectBoxButton
         handleClick={() => setClicked(!clicked)}
         selectedInfo={selectedInfo}

@@ -29,6 +29,7 @@ const MainScreen = () => {
     >
       <CommonSelectBox data={checkRowCardList}/>
       <FlatList
+        style={{zIndex: 1}}
         data={cardList}
         renderItem={(cardElement) => (
           <CheckRowCard
