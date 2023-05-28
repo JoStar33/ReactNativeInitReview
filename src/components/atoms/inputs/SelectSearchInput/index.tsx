@@ -1,5 +1,6 @@
 import React from "react";
 import { TextInput } from "react-native";
+import { selectSearchInputStyles } from "./SelectSearchInput.style";
 
 interface Props {
   handleChange: (text: string) => void;
@@ -12,16 +13,7 @@ const index = ({handleChange, search}: Props) => {
       placeholder="Search.."
       value={search}
       onChangeText={(text) => handleChange(text)}
-      style={{
-        width: "90%",
-        height: 50,
-        alignSelf: "center",
-        borderWidth: 0.2,
-        borderColor: "#8e8e8e",
-        borderRadius: 7,
-        marginTop: 20,
-        paddingLeft: 20,
-      }}
+      style={selectSearchInputStyles.container}
     />
   );
 };

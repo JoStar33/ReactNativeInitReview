@@ -1,7 +1,7 @@
 import { vw } from "rxn-units";
 import { StyleSheet } from "react-native";
 
-export const selectSearchInput = StyleSheet.create({
+export const selectSearchInputStyles = StyleSheet.create({
   container: {
     width: vw(90),
     height: 50,
