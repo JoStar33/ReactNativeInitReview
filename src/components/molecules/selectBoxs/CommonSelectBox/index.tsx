@@ -17,6 +17,7 @@ interface Props<T> {
   data: T[];
 }
 
+//셀렉트 박스 전체 기능을 묶어놓은 컴포넌트.
 const index = <T extends SelectBox>({ data }: Props<T>) => {
   const [search, setSearch] = useState<string>("");
   const [clicked, setClicked] = useState<boolean>(false);

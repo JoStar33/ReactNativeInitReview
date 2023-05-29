@@ -13,6 +13,7 @@ interface Props<T> {
   handleSelected: (title: string) => void;
 }
 
+//셀렉트 박스의 각 리스트들을 리스트업해주는 컴포넌트
 const index = <T extends SelectBox>({
   handleChange,
   clicked,
@@ -31,6 +32,7 @@ const index = <T extends SelectBox>({
             data={data}
             renderItem={({ item, index }) => (
               <SelectedItemButton<T>
+                key={index}
                 handleSelected={handleSelected}
                 item={item}
               />

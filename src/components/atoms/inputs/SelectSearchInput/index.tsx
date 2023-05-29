@@ -7,6 +7,7 @@ interface Props {
   search: string;
 }
 
+//셀렉트 박스내에 검색기능을 위해 구축한 searchInput
 const index = ({handleChange, search}: Props) => {
   return (
     <TextInput

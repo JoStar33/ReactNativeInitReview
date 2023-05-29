@@ -10,6 +10,7 @@ interface Props {
   clicked: boolean;
 };
 
+//셀렉트 박스 오픈을 돕는 버튼.
 const index = ({handleClick, selectedInfo, clicked}: Props) => {
   return (
     <TouchableOpacity
