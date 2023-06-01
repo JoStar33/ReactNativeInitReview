@@ -7,5 +7,9 @@ interface CheckCard extends Card {
   checked: boolean;
 }
 
-export type { Card, CheckCard };
+interface ShoppingCard extends Card {
+  price: number;
+}
+
+export type { Card, CheckCard, ShoppingCard };
 
