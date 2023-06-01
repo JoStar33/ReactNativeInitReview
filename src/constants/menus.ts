@@ -1,5 +1,6 @@
 enum BottomMenus {
-  Home = "Home"
+  Home = "Home",
+  Shopping = "Shopping"
 };
 
 enum DrawerMenus {
